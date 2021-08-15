@@ -13,6 +13,7 @@
   font-size: 26px;
   line-height: 1.192em;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo-st {
   font-family: raleway, sans-serif;
@@ -152,4 +153,40 @@
   line-height: 1.71em;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.button-nav {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  background-color: #f5f4fa;
+}
+.button-nav:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.button-nav:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.function-list-items-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.function-list-items-description {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.875em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.functions-list-items {
+  text-decoration: none;
 }
