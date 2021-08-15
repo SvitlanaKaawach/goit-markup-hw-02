@@ -2,6 +2,7 @@
   font-family: Roboto, sans-serif;
   font-style: normal;
   color: #212121;
+  cursor: pointer;
 }
 .header {
   background-color: #ffffff;
@@ -51,7 +52,6 @@
   background-color: #2f303a;
 }
 .hero-1-button {
-  cursor: pointer;
   font-weight: 700px;
   font-size: 16px;
   line-height: 1.87em;
@@ -120,7 +120,7 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-.footer {
+.contacts {
   background-color: #2f303a;
 }
 .logo-studio-footer {
