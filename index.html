@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -19,37 +20,37 @@
       <nav>
         <a class="logo"  href=""> Web <span class="logo-st" >Studio</span> 
         <ul class="header-nav">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Студия</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Портфолио</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
         </ul>
 
         <!--Ссылка на адрес електронной пошти-->
-        <ul >
-          <li>
-            <a class="address" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="address">
+          <li class="address-item">
+            <a class="address-link" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <!--Ссылка на телефонный номер-->
-          <li><a class="address" href="tel:+380961111111">+380961111111</a></li>
+          <li class="address-item"><a class="address-link" href="tel:+380961111111">+380961111111</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- Герой -->
     <main>
-      <section>
+      <section class="hero">
         <h1 class="hero-1">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button class="hero-1-button" type="button">Заказать услугу</button>
+        <div class="button-order"><button class="hero-1-button" type="button">Заказать услугу</button></div> 
       </section>
 
       <!-- Секции услуг -->
 
-      <section>
+      <section class="services">
         <h2 hidden>Услуги</h2>
-        <ul class="services">
+        <ul class="services-item">
           <li>
             <h3 class="main-services">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
             <p class="main-services-duty">
@@ -86,7 +87,7 @@
 
       <!-- Чем занимаеться студия -->
 
-      <section>
+      <section class="works">
         <h2 class="what-studio-makes">Чем мы занимаемся</h2>
         <ul class="list-what-studio-makes">
           <li class="image-of-studio-duty">
@@ -118,8 +119,8 @@
 
       <!-- Команда -->
 
-      <section>
-        <h2 class="team">Наша команда</h2>
+      <section class="team">
+        <h2 class="our-team">Наша команда</h2>
         <ul class="list-team">
           <li class="team-image">
             <img
@@ -170,8 +171,9 @@
     </main>
 
     <footer>
-       <a class="logo"  href=""> Web <span class="logo-st" >Studio</span> 
-      <ul>
+      <section class="footer">
+       <a class="logo"  href=""> Web <span class="logo-studio-footer" >Studio</span> 
+      <ul class="address-footer">
         <li><a class="studio-location"
           href="https://goo.gl/maps/8hY23HAekC6FVMTa9"
           target="_blank"
@@ -179,10 +181,11 @@
         >
           г. Киев, пр-т Леси Украинки, 26</a
         ></li>
-        <li> <a class="address" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li> <a class="address-link-footer" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
        
-        <li><a class="address" href="tel:+380961111111">+380961111111</a></li>
+        <li><a class="address-link-footer" href="tel:+380961111111">+380961111111</a></li>
      </ul>
+    </section>
     </footer>
   </body>
 </html>

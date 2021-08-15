@@ -1,0 +1,149 @@
+.body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: #212121;
+}
+.header {
+  background-color: #ffffff;
+}
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  color: #2196f3;
+  font-size: 26px;
+  line-height: 1.192em;
+  letter-spacing: 0.03em;
+}
+.logo-st {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 26px;
+  line-height: 1.192em;
+  letter-spacing: 0.03em;
+}
+.nav-link,
+.address-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142em;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-link:hover,
+.address-link:hover {
+  color: #2196f3;
+}
+.nav-link:focus,
+.address-link:focus {
+  color: #2196f3;
+}
+
+.hero-1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.hero-1-button {
+  cursor: pointer;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.services-item {
+  text-decoration: none;
+}
+
+.main-services {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.main-services-duty {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.what-studio-makes {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.list-what-studio-makes {
+  text-decoration: none;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.our-team {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-image {
+  text-decoration: none;
+}
+.members-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.members-position {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo-studio-footer {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 1.192em;
+  letter-spacing: 0.03em;
+}
+.studio-location {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+}
+.address-link-footer {
+  text-decoration: none;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}

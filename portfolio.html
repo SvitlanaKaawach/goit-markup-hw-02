@@ -5,40 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <!-- Меню навигации -->
     <header>
       <nav>
-        <a href="">
+        <a href="/">
           <h1 class="logo">Web <span class="logo-st">Studio</span></h1>
         </a>
         <ul class="header-nav">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li class="nav-item" ><a class="nav-link" href="">Студия</a></li>
+          <li class="nav-item" ><a class="nav-link" href="">Портфолио</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="address">
         <!--Ссылка на адрес електронной пошти-->
-        <li>
-          <a class="address" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+        <li class="address-item">
+          <a class="address-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a>
         </li>
         <!--Ссылка на телефонный номер-->
-        <li><a class="address" href="tel:+380961111111">+380961111111</a></li>
+        <li class="address-item"><a class="address-link" href="tel:+380961111111">+380961111111</a></li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="button-nav-menu">
         <!--Вверхняя навигация в герое-->
         <ul class="button-nav-main">
           <li><button class="button-nav" type="button">Все</button></li> 
@@ -57,7 +58,7 @@
               height="294"
             />
             <h2 class="function-list-items-title">Технокряк</h2>
-            <p class="function-list-items-paragraph">Веб-сайт</p>
+            <p class="function-list-items-description">Веб-сайт</p>
           </li>
           <li class="functions-list-items">
             <img
@@ -70,7 +71,7 @@
               Постер <span lang="en">New Orlean vs Golden Star</span>
             </h2>
 
-            <p class="function-list-items-paragraph">Дизайн</p>
+            <p class="function-list-items-description">Дизайн</p>
           </li>
           <li>
             <img
@@ -106,7 +107,7 @@
             <h2 class="function-list-items-title">
               Проект <span lang="en">Boxes</span>
             </h2>
-            <p class="function-list-items-paragraph">Приложение</p>
+            <p class="function-list-items-description">Приложение</p>
           </li>
           <li>
             <img
@@ -118,7 +119,7 @@
             <h2 class="function-list-items-title" lang="en">
               Inspiration has no Borders
             </h2>
-            <p class="function-list-items-paragraph">Веб-сайт</p>
+            <p class="function-list-items-description">Веб-сайт</p>
           </li>
           <li class="functions-list-items">
             <img
@@ -130,7 +131,7 @@
             <h2 class="function-list-items-title">
               Издание <span lang="en">Limited Edition</span>
             </h2>
-            <p class="function-list-items-paragraph">Дизайн</p>
+            <p class="function-list-items-description">Дизайн</p>
           </li>
           <li>
             <img
@@ -142,7 +143,7 @@
             <h2 class="function-list-items-title">
               Проект <abbr lang="en" title="LAB">LAB</abbr>
             </h2>
-            <p class="function-list-items-paragraph">Маркетинг</p>
+            <p class="function-list-items-description">Маркетинг</p>
           </li>
           <li class="functions-list-items">
             <img
@@ -154,13 +155,13 @@
             <h2 class="function-list-items-title" lang="en">
               Growing Business
             </h2>
-            <p class="function-list-items-paragraph">Приложение</p>
+            <p class="function-list-items-description">Приложение</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <section>
+      <section class="Contacts">
         <h2 hidden>Наши контакты</h2>
         <a class="logo" href=""> Web <span class="logo-st">Studio</span> </a>
         <ul>      
