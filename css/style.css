@@ -2,7 +2,6 @@
   font-family: Roboto, sans-serif;
   font-style: normal;
   color: #212121;
-  cursor: pointer;
 }
 .header {
   background-color: #ffffff;
@@ -23,14 +22,20 @@
   line-height: 1.192em;
   letter-spacing: 0.03em;
 }
-.nav-link,
-.address-link {
+.nav-link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142em;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.address-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142em;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 .nav-link:hover,
 .address-link:hover {
@@ -58,6 +63,7 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
 }
 .services-item {
   text-decoration: none;
