@@ -13,7 +13,6 @@
   font-size: 26px;
   line-height: 1.192em;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .logo-st {
   font-family: raleway, sans-serif;
@@ -30,7 +29,6 @@
   text-decoration: none;
 }
 .nav-link {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142em;
@@ -74,9 +72,6 @@
   background-color: #2196f3;
   cursor: pointer;
 }
-.services-item {
-  text-decoration: none;
-}
 
 .main-services {
   font-weight: 700;
@@ -85,7 +80,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  text-decoration: none;
 }
 
 .main-services-duty {
@@ -103,9 +97,7 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-.list-what-studio-makes {
-  text-decoration: none;
-}
+
 .team {
   background-color: #f5f4fa;
 }
@@ -117,9 +109,7 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-image {
-  text-decoration: none;
-}
+
 .members-names {
   font-weight: 500;
   font-size: 16px;
@@ -148,7 +138,6 @@
   letter-spacing: 0.03em;
 }
 .studio-location {
-  text-decoration: none;
   color: #ffffff;
   font-weight: 400px;
   font-size: 14px;
@@ -156,7 +145,6 @@
   letter-spacing: 0.03em;
 }
 .address-link-footer {
-  text-decoration: none;
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.71em;
@@ -164,7 +152,6 @@
   color: rgba(255, 255, 255, 0.6);
 }
 .button-nav {
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625em;
@@ -195,7 +182,4 @@
   line-height: 1.875em;
   letter-spacing: 0.03em;
   color: #757575;
-}
-.functions-list-items {
-  text-decoration: none;
 }
