@@ -138,7 +138,7 @@
   color: var(--main-text-color);
 }
 /* Фильтр меню в портфолио */
-}
+
 .button-filter {
   font-weight: 500;
   font-size: 16px;
@@ -194,3 +194,4 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
