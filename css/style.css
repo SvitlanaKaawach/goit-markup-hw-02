@@ -1,6 +1,5 @@
 .body {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   color: #212121;
 }
 .header {
@@ -83,7 +82,6 @@
 }
 
 .main-services-duty {
-  font-weight: 400px;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
@@ -151,7 +149,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.button-nav {
+.button-filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625em;
@@ -161,22 +159,23 @@
   cursor: pointer;
   background-color: #f5f4fa;
 }
-.button-nav:hover {
+.button-filter:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
-.button-nav:focus {
+.button-filter:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
-.function-list-items-title {
+
+.gallery-list-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
   color: #212121;
 }
-.function-list-items-description {
+.gallery-list-description {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.875em;

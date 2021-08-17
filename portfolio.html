@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
     
 
@@ -21,7 +18,7 @@
     <header>
       <nav>
         <a class="link" href="/">
-          <h1 class="logo">Web <span class="logo-st">Studio</span></h1>
+          <h1 class="logo">Web<span class="logo-st">Studio</span></h1>
         </a>
         <ul class="header-nav list">
           <li class="nav-item" ><a class="nav-link link" href="">Студия</a></li>
@@ -41,39 +38,39 @@
       </ul>
     </header>
     <main>
-      <section class="button-nav-menu">
-        <!--Вверхняя навигация в герое-->
-        <ul class="button-nav-main list">
-          <li><button class="button-nav" type="button">Все</button></li> 
-          <li><button class="button-nav" type="button">Веб-сайты</button></li>
-          <li><button class="button-nav" type="button">Приложения</button></li>
-          <li><button class="button-nav" type="button">Дизайн</button></li>
-          <li><button class="button-nav" type="button">Маркетинг</button></li>
+      <section class="section">
+        <!--Фильтр в герое-->
+        <ul class="filter">
+          <li class="filter-button-item"><button class="button-filter" type="button">Все</button></li> 
+          <li class="filter-button-item"><button class="button-filter" type="button">Веб-сайты</button></li>
+          <li class="filter-button-item"><button class="button-filter" type="button">Приложения</button></li>
+          <li class="filter-button-item"><button class="button-filter" type="button">Дизайн</button></li>
+          <li class="filter-button-item"><button class="button-filter" type="button">Маркетинг</button></li>
         </ul>
         <!--Список функций сайта с картинками-->
-        <ul class="functions-list list">
-          <li class="functions-list-items">
+        <ul class="gallery list">
+          <li class="gallery-list">
             <img
               src="./img/Portfolio-img/img-1.jpg"
               alt="Как виглядит веб-страница на ноутбуке "
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title">Технокряк</h2>
-            <p class="function-list-items-description">Веб-сайт</p>
+            <h2 class=gallery-list-title">Технокряк</h2>
+            <p class=gallery-list-description">Веб-сайт</p>
           </li>
-          <li class="functions-list-items">
+          <li class="gallery-list">
             <img
               src="./img/Portfolio-img/img-2.jpg"
               alt="Постер Новый Орлеан и Голден Стар"
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title">
+            <h2 class="function-list-title">
               Постер <span lang="en">New Orlean vs Golden Star</span>
             </h2>
 
-            <p class="function-list-items-description">Дизайн</p>
+            <p class="function-list-description">Дизайн</p>
           </li>
           <li>
             <img
@@ -82,10 +79,10 @@
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title">
+            <h2 class="function-list-title">
               Ресторан <span lang="en">Seafood</span>
             </h2>
-            <p class="function-list-items-description">Приложение</p>
+            <p class="function-list-description">Приложение</p>
           </li>
           <li>
             <img
@@ -94,22 +91,22 @@
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title">
+            <h2 class=gallery-list-title">
               Проект <span lang="en">Prime</span>
             </h2>
-            <p class="function-list-items-description">Дизайн</p>
+            <p class=gallery-list-description">Дизайн</p>
           </li>
-          <li class="functions-list-items">
+          <li class="gallery-list">
             <img
               src="./img/Portfolio-img/img-5.jpg"
               alt="Коробки"
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title">
+            <h2 class=gallery-list-items-title">
               Проект <span lang="en">Boxes</span>
             </h2>
-            <p class="function-list-items-description">Приложение</p>
+            <p class=gallery-list-items-description">Приложение</p>
           </li>
           <li>
             <img
@@ -118,22 +115,22 @@
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title" lang="en">
+            <h2 class=gallery-list-title" lang="en">
               Inspiration has no Borders
             </h2>
-            <p class="function-list-items-description">Веб-сайт</p>
+            <p class=gallery-list-description">Веб-сайт</p>
           </li>
-          <li class="functions-list-items">
+          <li class="gallery-list">
             <img
               src="./img/Portfolio-img/img-7.jpg"
               alt="Журнал-издание"
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title">
+            <h2 class="function-list-title">
               Издание <span lang="en">Limited Edition</span>
             </h2>
-            <p class="function-list-items-description">Дизайн</p>
+            <p class=gallery-list-description">Дизайн</p>
           </li>
           <li>
             <img
@@ -142,22 +139,22 @@
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title">
+            <h2 class=gallery-list-title">
               Проект <abbr lang="en" title="LAB">LAB</abbr>
             </h2>
-            <p class="function-list-items-description">Маркетинг</p>
+            <p class=gallery-list-description">Маркетинг</p>
           </li>
-          <li class="functions-list-items">
+          <li class="gallery-list">
             <img
               src="./img/Portfolio-img/img-9.jpg"
               alt="Розробка приложения для бизнеса"
               width="370"
               height="294"
             />
-            <h2 class="function-list-items-title" lang="en">
+            <h2 class=gallery-list-title" lang="en">
               Growing Business
             </h2>
-            <p class="function-list-items-description">Приложение</p>
+            <p class=gallery-list-description">Приложение</p>
           </li>
         </ul>
       </section>
@@ -165,7 +162,7 @@
     <footer>
       <section class="contacts">
         <h2 hidden>Наши контакты</h2>
-        <a class="logo link" href=""> Web <span class="logo-studio-footer">Studio</span> </a>
+        <a class="logo link" href=""> Web<span class="logo-studio-footer">Studio</span> </a>
         <ul  class="list" >      
           <li><a class="studio-location link"
             href="https://goo.gl/maps/Y9wyzisQfnfLE8UF7"
