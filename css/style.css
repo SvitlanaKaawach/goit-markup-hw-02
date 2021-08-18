@@ -8,7 +8,7 @@
 .button-filter.current {
   color: var(--accent-color);
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
